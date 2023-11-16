@@ -1,3 +1,11 @@
-from create_two_attribute import Person
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
 
-#create an object named "person" whose name is "Ali", age is "25"
+from create_two_attribute_one_objects import Person
+
+person = Person(name = "Ali", age = 25)
+
+print("Name:",person.name)
+print("Age:",person.age)
